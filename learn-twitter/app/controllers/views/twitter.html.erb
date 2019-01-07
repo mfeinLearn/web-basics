@@ -1,0 +1,7 @@
+<h1>Twitter Results for: someonetesting</h1>
+
+<ul>
+<% @tweets.each do |t| %>
+  <li style='border: 1px solid red'><%= t.user.username %>: <%= t.text %></li>
+<% end %>
+</ul>
